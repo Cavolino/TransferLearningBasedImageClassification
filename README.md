@@ -38,7 +38,15 @@ bustness, fine-tuning is performed multiple times, and average results are repor
 
 ## [Notebook here](/files/)
 
-<br><br><br>
+## How to run:
+- Download the Datasets [miniImageNet (train)](https://drive.google.com/drive/folders/17a09kkqVivZQFggCw9I_YboJ23tcexNM), [EuroSAT(RGB)](https://github.com/phelber/EuroSAT). 
+- Extract both zip datasets.
+- Change the path in the import section of the notebook.
+- Now you should be able to run all the notebook.
+
+<br>
+<hr>
+<br><br>
 
 <div style="text-align: right; font-size: 18px">
 
