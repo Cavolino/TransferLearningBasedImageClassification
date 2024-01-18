@@ -12,8 +12,8 @@
 **Abstract**: *The aim of the project is to try to overcome the challenge of limited data availability. For this reason has been used the method of transfer learning with the goal of improving classification performance. The target dataset is EuroSAT, a popular resource for Earth observation. The models have been pretrained on miniImageNet, a dataset commonly used in few-shot learning tasks. The project begins by processing the miniImageNet dataset with two distinct architectures that have been employed, ResNet18 and a Vision Transformer. The pre-trained models are evaluated and tested on the validation and test sets of miniImageNet. Subsequently, a small amount of images from EuroSAT has been selected to fine-tune the pretrain models and test them. To ensure robustness, fine-tuning is performed multiple times, and average results are reported. The report presents a comparative analysis of different models, including ResNet18 and Vision Transformer, evaluating their performance in the context of small datasets.*
 
 #### Datasets: 
-- [miniImageNet](https://drive.google.com/drive/folders/17a09kkqVivZQFggCw9I_YboJ23tcexNM): a widely used dataset in machine learning and image analysis. It is designed for image classification and object recognition, specifically focusing on few-shot learning tasks. The dataset is a smaller version of the larger ImageNet dataset, containing a subset of classes selected from ImageNet. In this case only the subfolder Train was used. This folder is divided into 64 subfolders each containing 600 images 84x84 pixels
-- [EuroSAT(RGB)](https://github.com/phelber/EuroSAT): dataset of satellite images designed for land cover classification. The images are captured by the Sentinel-2 satellites as part of the European Space Agency’s Copernicus Earth observation program. The ”(RGB)” indicates that the images are in the Red-Green-Blue color representation, common in color images. The dataset includes 13 land cover classes such as forests, agricultural areas, meadows, and cities.
+- [miniImageNet](https://drive.google.com/drive/folders/17a09kkqVivZQFggCw9I_YboJ23tcexNM){:target="_blank"}: a widely used dataset in machine learning and image analysis. It is designed for image classification and object recognition, specifically focusing on few-shot learning tasks. The dataset is a smaller version of the larger ImageNet dataset, containing a subset of classes selected from ImageNet. In this case only the subfolder Train was used. This folder is divided into 64 subfolders each containing 600 images 84x84 pixels
+- [EuroSAT(RGB)](https://github.com/phelber/EuroSAT){:target="_blank"}: dataset of satellite images designed for land cover classification. The images are captured by the Sentinel-2 satellites as part of the European Space Agency’s Copernicus Earth observation program. The ”(RGB)” indicates that the images are in the Red-Green-Blue color representation, common in color images. The dataset includes 13 land cover classes such as forests, agricultural areas, meadows, and cities.
 
 ## Track: 
 1. Complete the project and submit the code. For the code, you can get help from github. (20 points)
@@ -37,7 +37,7 @@
     d) Experiments: python=3.9.18, torch=2.1.1, torchvision=0.16.1
 
 ## Paper:
-[Transfer Learning-Based Image Classification Paper](./transfer_learning-based_image_classification-paper.pdf): What happens when basic deep learning methods fall short, and how can we transcend these limitations? Enter transfer learning—an innovative approach that seeks to leverage knowledge gained from one task to enhance performance on another. In practice, the learning process consists of fine-tuning a pre-trained model on the target task. Transfer learning is a valuable approach in scenarios with limited sample sizes thanks to its capability to use a pre-trained model’s early layers as a feature extractor and its capability to converge in a small amount of time since the model has already some knowledge. Overfitting is avoided as the range of data already observed during the initial training phase is wide, but at the same time, the source and the target domains must be related. 
+[Transfer Learning-Based Image Classification Paper](./transfer_learning-based_image_classification-paper.pdf){:target="_blank"}: What happens when basic deep learning methods fall short, and how can we transcend these limitations? Enter transfer learning—an innovative approach that seeks to leverage knowledge gained from one task to enhance performance on another. In practice, the learning process consists of fine-tuning a pre-trained model on the target task. Transfer learning is a valuable approach in scenarios with limited sample sizes thanks to its capability to use a pre-trained model’s early layers as a feature extractor and its capability to converge in a small amount of time since the model has already some knowledge. Overfitting is avoided as the range of data already observed during the initial training phase is wide, but at the same time, the source and the target domains must be related. 
 
 
 ## Technologies:
@@ -63,11 +63,11 @@
 </p>
 
 ## Notebook:
-[Transfer Learning-Based Image Classification Notebook](./Transfer_Learningbased_Image_Classification.ipynb)<br>
+[Transfer Learning-Based Image Classification Notebook](./Transfer_Learningbased_Image_Classification.ipynb){:target="_blank"}<br>
 #### How To Use:
-- Download both the [Datasets](#datasets).
-- Download the [Notebook](./Tweets_to_Emotions.ipynb).
-- Upload the downloaded dataset into [Google Drive](https://drive.google.com/) and untar/unzip using the provided code blocks in the notebook replacing the correct path.
+- Download both the [Datasets](#datasets){:target="_blank"}.
+- Download the [Notebook](./Tweets_to_Emotions.ipynb){:target="_blank"}.
+- Upload the downloaded dataset into [Google Drive](https://drive.google.com/){:target="_blank"} and untar/unzip using the provided code blocks in the notebook replacing the correct path.
 - Replace the path of those lines (in the i, iii, iv and v points of the project):
 
 ```python
@@ -95,10 +95,7 @@ model.load_state_dict(torch.load("/content/drive/MyDrive/Deep learning/Project/p
 <hr>
 <br><br>
 
-<div style="float: right">
-
 ##### Authors:
 
 *Dec 2023*<br>
 **Davide Moricoli, Andrea Cantore, Manex Sorarrain Agirrezabala**
-</div>
