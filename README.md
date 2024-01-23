@@ -95,10 +95,7 @@ model.load_state_dict(torch.load("/content/drive/MyDrive/Deep learning/Project/p
 <hr>
 <br><br>
 
-<div style="float: right">
-
 ##### Authors:
 
 *Dec 2023*<br>
 **Davide Moricoli, Andrea Cantore, Manex Sorarrain Agirrezabala**
-</div>
